@@ -1,0 +1,45 @@
+.card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 10rem;
+    margin-left: 20rem;
+}
+
+.card-single{
+    background: #fff;
+    padding: 1rem;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+}
+
+.card-flex{
+    display: grid;
+    grid-template-columns: 90% auto;
+    align-items: center;
+}
+
+.card-head span{
+    display: block;
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.card-head small{
+    font-weight: 600;
+    color: black;
+}
+
+.card-info h2{
+    font-size: 2.2rem;
+    color: black;
+}
+
+.card-chart span{
+    font-size: 5rem;
+}
+
+.card-chart.danger span{
+    position: relative;
+    color: red;
+}
